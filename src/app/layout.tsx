@@ -27,7 +27,7 @@ export default function RootLayout({
       lang="es"
       className={`${outfit.variable} ${fraunces.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col font-sans">{children}</body>
+      <body className="flex min-h-dvh flex-col font-sans">{children}</body>
     </html>
   );
 }
